@@ -4,3 +4,23 @@
     top: 300px;
     left: 800px;
 }
+
+#searchbox {
+    position:absolute;
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height:44px;
+    width: 600px;
+    top:420px;
+    left:630px;
+}
+#input form{
+    position:relative;
+    top: 0px;
+    left:50px;
+}
+input{
+    border:0px;
+    outline: none;
+}
