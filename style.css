@@ -25,9 +25,30 @@ input{
     border:0px;
     outline: none;
 }
-
+.buttons{
+    font-size: 14px;
+    height:36px;
+    text-align: center;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    padding:0 16px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+}
 #searchicon{
     position:absolute;
     left:22px;
     bottom:7px;
+}
+
+#googlesearch{
+    position: absolute;
+    top:70px;
+    left:90px;
+}
+
+#luckysearch{
+    position: absolute;
+    top:70px;
+    left:230px;
 }
