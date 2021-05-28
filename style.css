@@ -11,10 +11,11 @@
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     height:44px;
-    width: 600px;
+    width: 560px;
     top:420px;
-    left:630px;
+    left:650px;
 }
+
 #input form{
     position:relative;
     top: 0px;
@@ -23,4 +24,10 @@
 input{
     border:0px;
     outline: none;
+}
+
+#searchicon{
+    position:absolute;
+    left:22px;
+    bottom:7px;
 }
