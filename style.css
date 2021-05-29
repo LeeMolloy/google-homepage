@@ -1,4 +1,38 @@
-#logo img{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 8px;
+  }
+
+  li {
+    display:inline;
+    float:right;
+    padding:10px;
+  }
+
+  a {
+    color: #3c4043;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 13px;;
+  }
+
+  a:hover {
+      text-decoration: underline;
+  }
+
+    a.bluebtn {
+        background: #1a73e8;
+        color: #fff;
+        padding: 9px 23px;
+        border-radius: 4px;
+        text-align: center;
+        vertical-align: middle;
+        opacity: 1;
+    }
+#logo img {
     position:absolute;
     width: auto;
     top: 300px;
@@ -16,16 +50,16 @@
     left:650px;
 }
 
-#input form{
+#input form {
     position:relative;
     top: 0px;
     left:50px;
 }
-input{
+input {
     border:0px;
     outline: none;
 }
-.buttons{
+.buttons {
     font-size: 14px;
     height:36px;
     text-align: center;
@@ -35,19 +69,19 @@ input{
     background-color: #f8f9fa;
     color: #3c4043;
 }
-#searchicon{
+#searchicon {
     position:absolute;
     left:22px;
     bottom:7px;
 }
 
-#googlesearch{
+#googlesearch {
     position: absolute;
     top:70px;
     left:90px;
 }
 
-#luckysearch{
+#luckysearch {
     position: absolute;
     top:70px;
     left:230px;
