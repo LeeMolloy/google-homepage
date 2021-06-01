@@ -97,3 +97,26 @@ input {
     top:70px;
     left:230px;
 }
+
+.topbar img{
+    position: absolute;
+    top:35px;
+    left:25px;
+}
+
+.topsearch {
+    position:absolute;
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height:44px;
+    width: 690px;
+    top: 30px;
+    left: 160px;
+}
+
+.topinput form {
+    position:relative;
+    top: 0px;
+    left:50px;
+}
