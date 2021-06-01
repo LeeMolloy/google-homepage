@@ -1,3 +1,4 @@
+/*Nav bar*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,6 +24,7 @@ ul {
       text-decoration: underline;
   }
 
+/*Sign in Button*/
     a.bluebtn {
         background: #1a73e8;
         color: #fff;
@@ -32,6 +34,8 @@ ul {
         vertical-align: middle;
         opacity: 1;
     }
+    
+/*Google Logo*/    
 #logo img {
     position:absolute;
     width: auto;
@@ -39,6 +43,7 @@ ul {
     left: 800px;
 }
 
+/*Google search box*/
 #searchbox {
     position:absolute;
     background-color: #fff;
@@ -55,10 +60,12 @@ ul {
     top: 0px;
     left:50px;
 }
+
 input {
     border:0px;
     outline: none;
 }
+
 .buttons {
     font-size: 14px;
     height:36px;
@@ -69,18 +76,22 @@ input {
     background-color: #f8f9fa;
     color: #3c4043;
 }
+
+/*Magnifying glass icon*/
 #searchicon {
     position:absolute;
     left:22px;
     bottom:7px;
 }
 
+/*Google Search button*/
 #googlesearch {
     position: absolute;
     top:70px;
     left:90px;
 }
 
+/*I'm feeling Lucky Button*/
 #luckysearch {
     position: absolute;
     top:70px;
