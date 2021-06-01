@@ -118,7 +118,18 @@ input {
 .topinput form {
     position:relative;
     top: 0px;
-    left:30px;
+    left:20px;
+}
+
+.topsearchvoice {
+    position:absolute;
+    left:610px;
+    bottom:7px;
+    background-color: #fff;
+    outline: none;
+    padding: 0;
+    border: none;
+    cursor: pointer;
 }
 
 .topsearchicon {
