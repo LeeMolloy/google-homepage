@@ -174,3 +174,10 @@ input {
     position: absolute;
     left:560px;
 }
+
+.linebar{
+    position: absolute;
+    top:135px;
+    border: 1px solid rgb(240, 240, 240);
+    width: 2000px;
+}
