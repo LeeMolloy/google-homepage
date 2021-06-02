@@ -151,7 +151,18 @@ input {
 .navbottom {
     position: absolute;
     top:100px;
-    left:180px;
+    left:150px;
+}
+
+.navbottom li, .navbottom a{
+    font-size: 14px;
+    padding: 0 7px;
+}
+
+
+.navbottom .material-icons {
+    float: left;
+    margin-right: -3px;
 }
 
 .tools {
