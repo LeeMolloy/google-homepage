@@ -104,6 +104,11 @@ input {
     left:25px;
 }
 
+.navtop{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
 .topsearch {
     position:absolute;
     background-color: #fff;
@@ -141,4 +146,20 @@ input {
     padding: 0;
     border: none;
     cursor: pointer;
+}
+
+.navbottom {
+    position: absolute;
+    top:100px;
+    left:180px;
+}
+
+.tools {
+    position: absolute;
+    left:630px;
+}
+
+.settings {
+    position: absolute;
+    left:560px;
 }
