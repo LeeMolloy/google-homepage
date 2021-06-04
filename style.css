@@ -181,3 +181,20 @@ input {
     border: 1px solid rgb(240, 240, 240);
     width: 2000px;
 }
+
+.results {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 40px;
+    width: 652px;
+    top: 140px;
+}
+
+.stats {
+    width: 279px;
+    color: #70757a;
+}
+
