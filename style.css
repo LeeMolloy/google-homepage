@@ -175,6 +175,14 @@ input {
     left:560px;
 }
 
+.activebar {
+    position: absolute;
+    top:133px;
+    left:190px;
+    border: 1px solid blue;
+    width: 30px;
+}
+
 .linebar{
     position: absolute;
     top:135px;
@@ -196,5 +204,25 @@ input {
 .stats {
     width: 279px;
     color: #70757a;
+    font-size: 14px;
 }
 
+.content-block {
+    position: relative;
+    background-color: #fff;
+    height: 800px;
+    width: 652px;
+    margin-left: 180px;
+    top: 150px;
+}
+
+.content-block p {
+    text-align: left;
+    margin-top: -10px;
+}
+
+.content-block h3 {
+    font-size: 20px;
+    color: #1a0dab
+    ;
+}
