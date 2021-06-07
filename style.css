@@ -230,7 +230,7 @@ input {
 .btm-block {
     position: relative;
     background-color: #fff;
-    height: 400px;
+    height: 800px;
     width: 652px;
     top: 950px;
     margin-left: 180px;
@@ -383,4 +383,46 @@ input {
     outline:none;
     background: none;
     cursor: pointer;
+}
+
+.column {
+    position: relative;
+    top: 50px;
+    float: left;
+    width: 50%;
+    height: 224px;
+}
+
+.column a {
+    display: block;
+    height: 48px;
+    width: 318px;
+    color: #202124;
+    background-color: #f1f3f4;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 34px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.column .material-icons {
+    float: left;
+    margin: 15px 20px 0 25px;
+}
+
+.search-block:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+b {
+    color: #202124;
+    font-size: 16px;
+    text-align: left;
+    display: block;
+    line-height: 25px;
+    text-overflow: hidden;
 }
